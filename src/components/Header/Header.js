@@ -34,7 +34,7 @@ export default function Header() {
                 </div>        
                 <a href="/contact" onClick={() => setMenuOpen(false)} >Contact Us</a>
             </Menu>
-            <h1>Header</h1>   
+            <h1>The Plant Shop</h1>   
         </div>
     )
 }

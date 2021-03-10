@@ -1,9 +1,10 @@
 .header {
     color: #EBE831;
     background-color: #856DED;
-    height: 8vh;
+    height: 72px;
     display: flex;
     align-items: center;
+    padding-left: 10px;
 }
 
 /* Position and sizing of burger button */
@@ -12,7 +13,7 @@
     width: 36px;
     height: 30px;
     right: 36px;
-    top: 36px;
+    top: 22px;
   }
   
   /* Color/shape of burger icon bars */
