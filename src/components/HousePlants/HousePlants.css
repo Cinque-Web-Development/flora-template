@@ -1,0 +1,10 @@
+.houseplant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.houseplant-picture {
+    width: 95vw;
+    margin: 10px;
+}
