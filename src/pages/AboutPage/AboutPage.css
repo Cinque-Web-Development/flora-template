@@ -9,9 +9,22 @@
 
 .About > h1 {
     color: #638551;
+    padding: 3px;
 }
 
 .about-photo {
     width: 100%;
     box-shadow: 2px 2px 10px 1px #856DED;
+}
+
+@media only screen and (min-width: 635px) {
+    .about-photo {
+        width: 615px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-content-wrap {
+        width: 980px;
+    }
 }
