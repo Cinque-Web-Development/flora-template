@@ -7,8 +7,8 @@ import Header from "./components/Header/Header";
 import HousePlantsPage from './pages/HousePlantsPage/HousePlantsPage';
 import FlowersPage from './pages/FlowersPage/FlowersPage';
 import SucculentsPage from './pages/SucculentsPage/SucculentsPage';
+import AboutPage from "./pages/AboutPage/AboutPage";
 import ContactPage from './pages/ContactPage/ContactPage';
-
 
 
 function App() {
@@ -30,6 +30,10 @@ function App() {
         </Route>
         <Route exact path="/succulents" render={() =>
         <SucculentsPage />
+        }>
+        </Route>
+        <Route exact path="/about" render={() =>
+          <AboutPage />
         }>
         </Route>
         <Route exact path="/contact" render={() => 
