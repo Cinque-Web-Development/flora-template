@@ -8,7 +8,7 @@ export default function Header() {
     const [ menuOpen, setMenuOpen ] = useState();
 
     const isMenuOpen = function(state) {
-        return state.isOpen;
+        setMenuOpen(state.isOpen);
     }
 
     return (
@@ -20,20 +20,20 @@ export default function Header() {
                 isOpen={menuOpen}
                 onStateChange={ isMenuOpen }
             >
-                <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
-                <Link to="/about">About</Link>  
-                <div class="ui compact menu">
-                    <div class="ui simple dropdown item bm-item">
+                <Link to="/" onClick={() => setMenuOpen(false)} >Home</Link>
+                <Link to="/about" onClick={() => setMenuOpen(false)} >About</Link>  
+                <div className="ui compact menu">
+                    <div className="ui simple dropdown item bm-item">
                         Products
-                        <i class="dropdown icon"></i>
-                        <div class="menu">
-                            <Link to="/flowers" class="item bm-item">Flowers</Link>
-                            <Link to="/plants" class="item bm-item">House Plants</Link>
-                            <Link to="/succulents" class="item bm-item">Succulents</Link>
+                        <i className="dropdown icon"></i>
+                        <div className="menu">
+                            <Link to="/flowers" className="item bm-item" onClick={() => setMenuOpen(false)} >Flowers</Link>
+                            <Link to="/houseplants" className="item bm-item" onClick={() => setMenuOpen(false)} >House Plants</Link>
+                            <Link to="/succulents" className="item bm-item" onClick={() => setMenuOpen(false)} >Succulents</Link>
                         </div>
                     </div>
                 </div>        
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/contact" onClick={() => setMenuOpen(false)} >Contact Us</Link>
             </Menu>
             <h1>Header</h1>   
         </div>
