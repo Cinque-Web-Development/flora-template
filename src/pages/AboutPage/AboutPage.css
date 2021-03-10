@@ -1,0 +1,17 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    background-color: rgba(133, 109, 237, 0.5);
+}
+
+.About > h1 {
+    color: #638551;
+}
+
+.about-photo {
+    width: 100%;
+    box-shadow: 2px 2px 10px 1px #856DED;
+}
