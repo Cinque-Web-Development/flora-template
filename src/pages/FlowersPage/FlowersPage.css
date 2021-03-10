@@ -1,3 +1,8 @@
 .flowers {
     text-align: center;
+    background-color: rgba(133, 109, 237, 0.5)
+}
+
+.flowers > h1 {
+    color:  #638551
 }

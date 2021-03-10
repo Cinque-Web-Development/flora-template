@@ -1,3 +1,8 @@
 .house-plants {
     text-align: center;
+    background-color: rgba(133, 109, 237, 0.5)
+}
+
+.house-plants > h1 {
+    color:  #638551;
 }
