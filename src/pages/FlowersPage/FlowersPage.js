@@ -5,7 +5,8 @@ import Flowers from '../../components/Flowers/Flowers';
 
 export default function FlowersPage() {
     return (
-        <div>
+        <div className="flowers">
+            <h1>Flowers</h1>
             {flowersDB.map(flower => 
             <Flowers flower={flower}/>    
             )}

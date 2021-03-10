@@ -7,7 +7,7 @@ import HousePlants from '../../components/HousePlants/HousePlants';
 export default function HousePlantsPage() {
     return (
         <div className="house-plants">
-           <h1 className="house-plants-header"> House Plants</h1>
+           <h1> House Plants</h1>
                 {housePlantsDB.map(houseplant => 
                 <HousePlants houseplant={houseplant}/>
                 )}
