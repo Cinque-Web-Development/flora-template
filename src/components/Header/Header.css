@@ -47,7 +47,7 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background: rgba(133, 109, 237, 0.9);
+    background: rgba(99, 133, 81, 0.9);
     padding: 2rem 1.5rem 0;
     font-size: 2rem;
   }
@@ -64,6 +64,10 @@
     color: #EBE831;
     text-decoration: none;
     padding: 0.3rem;
+  }
+
+  .bm-item:hover, .bm-item:active {
+      color: #4DB814;
   }
   
   /* Styling of overlay */

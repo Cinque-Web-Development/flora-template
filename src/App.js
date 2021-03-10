@@ -16,8 +16,8 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" render={() => 
-        <LandingPage />
-      }>
+          <LandingPage />
+        }>
         </Route>
         <Route exact path="/houseplants" render={() => 
         <HousePlantsPage />
