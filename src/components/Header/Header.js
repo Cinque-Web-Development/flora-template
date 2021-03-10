@@ -12,9 +12,10 @@ export default function Header() {
                 width={ '100vw' }
             >
                 <Link href="/">Home</Link>
-                <Link href="/">About</Link>
                 <Link href="/">Products</Link>
+                <Link href="/">About</Link>
                 <Link href="/">Contact Us</Link>
+                <a href="/houseplants">House Plants</a>
             </Menu>
             <h1>Header</h1>
         </div>
