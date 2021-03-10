@@ -9,6 +9,7 @@ import FlowersPage from './pages/FlowersPage/FlowersPage';
 import SucculentsPage from './pages/SucculentsPage/SucculentsPage';
 import AboutPage from "./pages/AboutPage/AboutPage";
 import ContactPage from './pages/ContactPage/ContactPage';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <ContactPage />
         }>
         </Route>
+        <Footer />
       </Switch>
     </>
   );
