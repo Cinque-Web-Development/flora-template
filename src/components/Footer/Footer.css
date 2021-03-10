@@ -1,0 +1,41 @@
+.footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(128, 113, 229)
+}
+
+.cinque {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(231, 235, 89);
+}
+
+.cinque-link {
+    text-decoration: none;  
+}
+
+.cinque-link:hover {
+    color:rgb(231, 235, 89);
+    transition: .6s;
+}
+
+.social-links {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    text-decoration: none;
+    color: rgb(231, 235, 89);
+    margin: 10px;
+}
+
+.socials:hover {
+    color: rgb(128, 113, 229);
+    transition: .6s;
+}
