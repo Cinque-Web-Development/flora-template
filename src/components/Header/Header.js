@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 
 import "./Header.css";
@@ -20,20 +19,20 @@ export default function Header() {
                 isOpen={menuOpen}
                 onStateChange={ isMenuOpen }
             >
-                <Link to="/" onClick={() => setMenuOpen(false)} >Home</Link>
-                <Link to="/about" onClick={() => setMenuOpen(false)} >About</Link>  
+                <a href="/" onClick={() => setMenuOpen(false)} >Home</a>
+                <a href="/about" onClick={() => setMenuOpen(false)} >About</a>  
                 <div className="ui compact menu">
                     <div className="ui simple dropdown item bm-item">
                         Products
                         <i className="dropdown icon"></i>
                         <div className="menu">
-                            <Link to="/flowers" className="item bm-item" onClick={() => setMenuOpen(false)} >Flowers</Link>
-                            <Link to="/houseplants" className="item bm-item" onClick={() => setMenuOpen(false)} >House Plants</Link>
-                            <Link to="/succulents" className="item bm-item" onClick={() => setMenuOpen(false)} >Succulents</Link>
+                            <a href="/flowers" className="item bm-item" onClick={() => setMenuOpen(false)} >Flowers</a>
+                            <a href="/houseplants" className="item bm-item" onClick={() => setMenuOpen(false)} >House Plants</a>
+                            <a href="/succulents" className="item bm-item" onClick={() => setMenuOpen(false)} >Succulents</a>
                         </div>
                     </div>
                 </div>        
-                <Link to="/contact" onClick={() => setMenuOpen(false)} >Contact Us</Link>
+                <a href="/contact" onClick={() => setMenuOpen(false)} >Contact Us</a>
             </Menu>
             <h1>Header</h1>   
         </div>
