@@ -5,6 +5,7 @@ import './App.css';
 import LandingPage from './pages/LandingPage/LandingPage';
 import Header from "./components/Header/Header";
 import HousePlantsPage from './pages/HousePlantsPage/HousePlantsPage';
+import FlowersPage from './pages/FlowersPage/FlowersPage';
 
 
 
@@ -19,6 +20,10 @@ function App() {
         </Route>
         <Route exact path="/houseplants" render={() => 
         <HousePlantsPage />
+        }>
+        </Route>
+        <Route exact path="/flowers" render={() => 
+        <FlowersPage />
         }>
         </Route>
       </Switch>

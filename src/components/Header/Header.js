@@ -16,6 +16,7 @@ export default function Header() {
                 <Link href="/">About</Link>
                 <Link href="/">Contact Us</Link>
                 <a href="/houseplants">House Plants</a>
+                <a href="/flowers"> Flowers</a>
             </Menu>
             <h1>Header</h1>
         </div>
