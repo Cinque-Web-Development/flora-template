@@ -65,6 +65,10 @@
     text-decoration: none;
     padding: 0.3rem;
   }
+
+  .bm-item:hover, .bm-item:active {
+      color: #4DB814;
+  }
   
   /* Styling of overlay */
   .bm-overlay {

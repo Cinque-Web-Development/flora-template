@@ -23,13 +23,13 @@ export default function Header() {
                 <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
                 <Link to="/about">About</Link>  
                 <div class="ui compact menu">
-                    <div class="ui simple dropdown item">
+                    <div class="ui simple dropdown item bm-item">
                         Products
                         <i class="dropdown icon"></i>
                         <div class="menu">
-                        <Link to="/flowers" class="item">Flowers</Link>
-                        <Link to="/plants" class="item">House Plants</Link>
-                        <Link to="/succulents" class="item">Succulents</Link>
+                            <Link to="/flowers" class="item bm-item">Flowers</Link>
+                            <Link to="/plants" class="item bm-item">House Plants</Link>
+                            <Link to="/succulents" class="item bm-item">Succulents</Link>
                         </div>
                     </div>
                 </div>        
